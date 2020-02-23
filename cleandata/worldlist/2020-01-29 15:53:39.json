@@ -1,0 +1,196 @@
+{
+    "data": {
+        "cachetime": "2020-01-29 15:53:39",
+        "worldlist": [
+            {
+                "name": "中国",
+                "value": "5997",
+                "susNum": "9239",
+                "deathNum": "132",
+                "cureNum": "103"
+            },
+            {
+                "name": "柬埔寨",
+                "value": "1",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "阿联酋",
+                "value": "1",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "斯里兰卡",
+                "value": "1",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "泰国",
+                "value": "14",
+                "susNum": "84",
+                "deathNum": "0",
+                "cureNum": "5"
+            },
+            {
+                "name": "韩国",
+                "value": "4",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "日本",
+                "value": "7",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "1"
+            },
+            {
+                "name": "新加坡",
+                "value": "7",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "菲律宾",
+                "value": "0",
+                "susNum": "11",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "马来西亚",
+                "value": "7",
+                "susNum": "4",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "越南",
+                "value": "2",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "美国",
+                "value": "5",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "澳大利亚",
+                "value": "6",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "墨西哥",
+                "value": "0",
+                "susNum": "6",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "巴西",
+                "value": "0",
+                "susNum": "1",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "哥伦比亚",
+                "value": "0",
+                "susNum": "1",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "英国",
+                "value": "0",
+                "susNum": "5",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "意大利",
+                "value": "0",
+                "susNum": "1",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "加拿大",
+                "value": "3",
+                "susNum": "6",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "芬兰",
+                "value": "0",
+                "susNum": "2",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "尼泊尔",
+                "value": "1",
+                "susNum": "2",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "法国",
+                "value": "4",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "德国",
+                "value": "4",
+                "susNum": "3",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "科特迪瓦",
+                "value": "0",
+                "susNum": "1",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "瑞士",
+                "value": "0",
+                "susNum": "2",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "以色列",
+                "value": "0",
+                "susNum": "2",
+                "deathNum": "0",
+                "cureNum": "0"
+            },
+            {
+                "name": "厄瓜多尔",
+                "value": "0",
+                "susNum": "1",
+                "deathNum": "0",
+                "cureNum": "0"
+            }
+        ]
+    }
+}

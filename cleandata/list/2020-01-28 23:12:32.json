@@ -1,0 +1,2612 @@
+{
+    "data": {
+        "cachetime": "2020-01-28 23:12:32",
+        "list": [
+            {
+                "name": "湖北",
+                "value": "2714",
+                "susNum": "0",
+                "deathNum": "100",
+                "cureNum": "52",
+                "city": [
+                    {
+                        "name": "武汉",
+                        "conNum": "1590",
+                        "susNum": "0",
+                        "cureNum": "45",
+                        "deathNum": "85"
+                    },
+                    {
+                        "name": "黄石",
+                        "conNum": "53",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "1"
+                    },
+                    {
+                        "name": "咸宁",
+                        "conNum": "91",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "宜昌",
+                        "conNum": "51",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "1"
+                    },
+                    {
+                        "name": "十堰",
+                        "conNum": "65",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "恩施州",
+                        "conNum": "38",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "仙桃",
+                        "conNum": "27",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "襄阳",
+                        "conNum": "70",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "天门",
+                        "conNum": "23",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "2"
+                    },
+                    {
+                        "name": "潜江",
+                        "conNum": "7",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "1"
+                    },
+                    {
+                        "name": "神农架林区",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "鄂州",
+                        "conNum": "57",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "荆州",
+                        "conNum": "71",
+                        "susNum": "0",
+                        "cureNum": "1",
+                        "deathNum": "2"
+                    },
+                    {
+                        "name": "黄冈",
+                        "conNum": "213",
+                        "susNum": "0",
+                        "cureNum": "2",
+                        "deathNum": "4"
+                    },
+                    {
+                        "name": "孝感",
+                        "conNum": "173",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "1"
+                    },
+                    {
+                        "name": "荆门",
+                        "conNum": "114",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "3"
+                    },
+                    {
+                        "name": "随州",
+                        "conNum": "70",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "广东",
+                "value": "207",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "4",
+                "city": [
+                    {
+                        "name": "佛山",
+                        "conNum": "18",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "河源",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "汕尾",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "惠州",
+                        "conNum": "11",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "阳江",
+                        "conNum": "9",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "湛江",
+                        "conNum": "7",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "肇庆",
+                        "conNum": "4",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "韶关",
+                        "conNum": "4",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "清远",
+                        "conNum": "6",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "揭阳",
+                        "conNum": "4",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "中山",
+                        "conNum": "6",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "东莞",
+                        "conNum": "7",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "汕头",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "梅州",
+                        "conNum": "4",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "深圳",
+                        "conNum": "57",
+                        "susNum": "0",
+                        "cureNum": "4",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "广州",
+                        "conNum": "51",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "珠海",
+                        "conNum": "12",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "浙江",
+                "value": "173",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "3",
+                "city": [
+                    {
+                        "name": "绍兴",
+                        "conNum": "7",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "金华",
+                        "conNum": "7",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "衢州",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "丽水",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "舟山",
+                        "conNum": "4",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "湖州",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "台州",
+                        "conNum": "22",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "温州",
+                        "conNum": "60",
+                        "susNum": "0",
+                        "cureNum": "3",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "宁波",
+                        "conNum": "17",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "嘉兴",
+                        "conNum": "11",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "杭州",
+                        "conNum": "32",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "重庆",
+                "value": "132",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0",
+                "city": [
+                    {
+                        "name": "开州区",
+                        "conNum": "9",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "南岸区",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "长寿区",
+                        "conNum": "7",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "江津区",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "万州区",
+                        "conNum": "15",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "黔江区",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "忠县",
+                        "conNum": "9",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "大渡口区",
+                        "conNum": "6",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "渝北区",
+                        "conNum": "6",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "巴南区",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "云阳县",
+                        "conNum": "10",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "九龙坡区",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "永川区",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "綦江区",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "奉节县",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "巫山县",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "巫溪县",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "两江新区",
+                        "conNum": "8",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "石柱县",
+                        "conNum": "6",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "江北区",
+                        "conNum": "4",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "垫江县",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "合川区",
+                        "conNum": "4",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "璧山区",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "铜梁区",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "潼南区",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "大足区",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "涪陵区",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "秀山县",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "梁平区",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "城口县",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "丰都县",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "湖南",
+                "value": "143",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0",
+                "city": [
+                    {
+                        "name": "娄底",
+                        "conNum": "9",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "永州",
+                        "conNum": "7",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "益阳",
+                        "conNum": "10",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "株洲",
+                        "conNum": "7",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "湘潭",
+                        "conNum": "6",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "郴州",
+                        "conNum": "7",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "衡阳",
+                        "conNum": "7",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "湘西自治州",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "邵阳",
+                        "conNum": "11",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "长沙",
+                        "conNum": "24",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "怀化",
+                        "conNum": "16",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "常德",
+                        "conNum": "19",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "岳阳",
+                        "conNum": "17",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "北京",
+                "value": "91",
+                "susNum": "0",
+                "deathNum": "1",
+                "cureNum": "4",
+                "city": [
+                    {
+                        "name": "西城区",
+                        "conNum": "8",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "丰台区",
+                        "conNum": "7",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "大兴区",
+                        "conNum": "7",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "石景山区",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "顺义区",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "东城区",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "昌平区",
+                        "conNum": "7",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "通州区",
+                        "conNum": "7",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "朝阳区",
+                        "conNum": "17",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "海淀区",
+                        "conNum": "21",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "外来务工人员",
+                        "conNum": "11",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "安徽",
+                "value": "106",
+                "susNum": "4",
+                "deathNum": "0",
+                "cureNum": "0",
+                "city": [
+                    {
+                        "name": "蚌埠",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "宣城",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "淮北",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "淮南",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "黄山",
+                        "conNum": "4",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "合肥",
+                        "conNum": "16",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "亳州",
+                        "conNum": "8",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "安庆",
+                        "conNum": "8",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "六安",
+                        "conNum": "4",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "铜陵",
+                        "conNum": "9",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "芜湖",
+                        "conNum": "9",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "滁州",
+                        "conNum": "4",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "宿州",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "池州",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "阜阳",
+                        "conNum": "21",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "马鞍山",
+                        "conNum": "10",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "上海",
+                "value": "66",
+                "susNum": "72",
+                "deathNum": "1",
+                "cureNum": "4",
+                "city": [
+                    {
+                        "name": "长宁",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "静安",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "徐汇",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "虹口",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "闵行",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "青浦",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "黄浦",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "宝山",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "嘉定",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "奉贤",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "外地来沪人员",
+                        "conNum": "33",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "浦东",
+                        "conNum": "9",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "四川",
+                "value": "90",
+                "susNum": "4",
+                "deathNum": "0",
+                "cureNum": "1",
+                "city": [
+                    {
+                        "name": "绵阳",
+                        "conNum": "8",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "广安",
+                        "conNum": "7",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "遂宁",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "泸州",
+                        "conNum": "4",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "南充",
+                        "conNum": "4",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "资阳",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "甘孜州",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "德阳",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "雅安",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "达州",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "自贡",
+                        "conNum": "7",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "内江",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "乐山",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "宜宾",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "凉山州",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "眉山",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "成都",
+                        "conNum": "37",
+                        "susNum": "0",
+                        "cureNum": "1",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "山东",
+                "value": "95",
+                "susNum": "47",
+                "deathNum": "0",
+                "cureNum": "1",
+                "city": [
+                    {
+                        "name": "济南",
+                        "conNum": "10",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "枣庄",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "威海",
+                        "conNum": "10",
+                        "susNum": "5",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "日照",
+                        "conNum": "6",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "德州",
+                        "conNum": "8",
+                        "susNum": "1",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "滨州",
+                        "conNum": "4",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "潍坊",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "烟台",
+                        "conNum": "10",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "聊城",
+                        "conNum": "3",
+                        "susNum": "2",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "菏泽",
+                        "conNum": "5",
+                        "susNum": "4",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "淄博",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "青岛",
+                        "conNum": "15",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "临沂",
+                        "conNum": "8",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "济宁",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "泰安",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "云南",
+                "value": "44",
+                "susNum": "125",
+                "deathNum": "0",
+                "cureNum": "0",
+                "city": [
+                    {
+                        "name": "昆明",
+                        "conNum": "12",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "丽江",
+                        "conNum": "6",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "保山",
+                        "conNum": "4",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "德宏州",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "西双版纳",
+                        "conNum": "6",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "曲靖",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "玉溪",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "红河",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "大理",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "昭通",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "广西",
+                "value": "51",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "1",
+                "city": [
+                    {
+                        "name": "桂林",
+                        "conNum": "15",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "北海",
+                        "conNum": "11",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "柳州",
+                        "conNum": "6",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "河池",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "梧州",
+                        "conNum": "4",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "百色",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "防城港",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "南宁",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "玉林",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "贵州",
+                "value": "9",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0",
+                "city": [
+                    {
+                        "name": "铜仁",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "贵阳",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "六盘水",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "黔南州",
+                        "conNum": "4",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "黔西南州",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "海南",
+                "value": "40",
+                "susNum": "0",
+                "deathNum": "1",
+                "cureNum": "0",
+                "city": [
+                    {
+                        "name": "三亚",
+                        "conNum": "14",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "万宁",
+                        "conNum": "7",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "海口",
+                        "conNum": "7",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "琼中县",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "琼海市",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "东方市",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "儋州",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "临高县",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "陵水县",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "澄迈县",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "宁夏",
+                "value": "11",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0",
+                "city": [
+                    {
+                        "name": "银川",
+                        "conNum": "7",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "吴忠",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "中卫",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "固原",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "吉林",
+                "value": "8",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0",
+                "city": [
+                    {
+                        "name": "吉林",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "公主岭",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "长春",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "松原",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "四平",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "江西",
+                "value": "72",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "3",
+                "city": [
+                    {
+                        "name": "吉安",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "新余",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "景德镇",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "赣州",
+                        "conNum": "10",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "抚州",
+                        "conNum": "8",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "上饶",
+                        "conNum": "7",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "宜春",
+                        "conNum": "10",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "鹰潭",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "南昌",
+                        "conNum": "17",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "萍乡",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "九江",
+                        "conNum": "9",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "天津",
+                "value": "24",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0",
+                "city": [
+                    {
+                        "name": "河北区",
+                        "conNum": "7",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "河西区",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "红桥区",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "河东区",
+                        "conNum": "6",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "外地来津",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "滨海新区",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "和平区",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "南开区",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "西青区",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "河南",
+                "value": "168",
+                "susNum": "3",
+                "deathNum": "1",
+                "cureNum": "0",
+                "city": [
+                    {
+                        "name": "安阳市",
+                        "conNum": "11",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "鹤壁",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "信阳",
+                        "conNum": "29",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "郑州",
+                        "conNum": "37",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "南阳",
+                        "conNum": "26",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "1"
+                    },
+                    {
+                        "name": "商丘",
+                        "conNum": "7",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "周口",
+                        "conNum": "15",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "新乡",
+                        "conNum": "6",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "焦作",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "许昌",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "漯河市",
+                        "conNum": "9",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "三门峡",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "平顶山",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "洛阳",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "开封",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "驻马店",
+                        "conNum": "10",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "山西",
+                "value": "20",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0",
+                "city": [
+                    {
+                        "name": "太原",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "朔州",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "晋中",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "运城",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "阳泉",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "大同",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "长治",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "临汾",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "吕梁",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "黑龙江",
+                "value": "33",
+                "susNum": "0",
+                "deathNum": "1",
+                "cureNum": "0",
+                "city": [
+                    {
+                        "name": "哈尔滨",
+                        "conNum": "10",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "大庆",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "双鸭山",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "七台河",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "绥化",
+                        "conNum": "8",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "1"
+                    },
+                    {
+                        "name": "牡丹江",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "佳木斯",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "齐齐哈尔",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "辽宁",
+                "value": "34",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0",
+                "city": [
+                    {
+                        "name": "沈阳",
+                        "conNum": "8",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "大连",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "辽阳",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "朝阳",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "铁岭",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "葫芦岛",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "本溪",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "营口",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "丹东",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "锦州",
+                        "conNum": "4",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "盘锦",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "澳门",
+                "value": "7",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0",
+                "city": []
+            },
+            {
+                "name": "台湾",
+                "value": "8",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0",
+                "city": []
+            },
+            {
+                "name": "福建",
+                "value": "80",
+                "susNum": "67",
+                "deathNum": "0",
+                "cureNum": "0",
+                "city": [
+                    {
+                        "name": "福州",
+                        "conNum": "24",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "泉州",
+                        "conNum": "13",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "厦门",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "漳州",
+                        "conNum": "6",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "三明",
+                        "conNum": "8",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "宁德",
+                        "conNum": "6",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "莆田",
+                        "conNum": "14",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "南平",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "龙岩",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "香港",
+                "value": "8",
+                "susNum": "244",
+                "deathNum": "0",
+                "cureNum": "0",
+                "city": []
+            },
+            {
+                "name": "河北",
+                "value": "33",
+                "susNum": "0",
+                "deathNum": "1",
+                "cureNum": "0",
+                "city": [
+                    {
+                        "name": "石家庄",
+                        "conNum": "9",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "保定",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "沧州",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "1"
+                    },
+                    {
+                        "name": "邯郸市",
+                        "conNum": "4",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "承德",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "唐山",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "邢台市",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "衡水",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "廊坊市",
+                        "conNum": "6",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "内蒙古",
+                "value": "15",
+                "susNum": "2",
+                "deathNum": "0",
+                "cureNum": "0",
+                "city": [
+                    {
+                        "name": "呼和浩特市",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "包头市",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "呼伦贝尔市",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "兴安盟",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "通辽市",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "赤峰市",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "锡林郭勒盟",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "鄂尔多斯",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "江苏",
+                "value": "70",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "1",
+                "city": [
+                    {
+                        "name": "苏州",
+                        "conNum": "12",
+                        "susNum": "0",
+                        "cureNum": "1",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "南京",
+                        "conNum": "10",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "常州",
+                        "conNum": "6",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "连云港",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "无锡",
+                        "conNum": "6",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "徐州",
+                        "conNum": "8",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "南通",
+                        "conNum": "6",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "镇江",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "扬州",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "盐城",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "宿迁",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "淮安",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "泰州",
+                        "conNum": "4",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "西藏",
+                "value": "0",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0",
+                "city": []
+            },
+            {
+                "name": "陕西",
+                "value": "46",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0",
+                "city": [
+                    {
+                        "name": "西安",
+                        "conNum": "15",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "铜川",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "咸阳",
+                        "conNum": "4",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "安康",
+                        "conNum": "8",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "延安",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "商洛",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "汉中",
+                        "conNum": "4",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "渭南",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "宝鸡",
+                        "conNum": "3",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "新疆",
+                "value": "10",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0",
+                "city": [
+                    {
+                        "name": "乌鲁木齐",
+                        "conNum": "5",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "伊犁州",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "吐鲁番",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "第七师",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "第八师石河子",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "甘肃",
+                "value": "19",
+                "susNum": "0",
+                "deathNum": "0",
+                "cureNum": "0",
+                "city": [
+                    {
+                        "name": "张掖",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "陇南",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "金昌",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "天水",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "兰州",
+                        "conNum": "11",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "临夏",
+                        "conNum": "2",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "定西",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    },
+                    {
+                        "name": "白银市",
+                        "conNum": "1",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            },
+            {
+                "name": "青海",
+                "value": "6",
+                "susNum": "2",
+                "deathNum": "0",
+                "cureNum": "0",
+                "city": [
+                    {
+                        "name": "西宁",
+                        "conNum": "6",
+                        "susNum": "0",
+                        "cureNum": "0",
+                        "deathNum": "0"
+                    }
+                ]
+            }
+        ]
+    }
+}
