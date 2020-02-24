@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# @Time: 2020-02-15 09:30
+# @Time: 2020-02-15 09:06
 # @Project: 2019-nCoV
-# @Version: 2020.02 builder 150930
+# @Version: 2020.02 builder 150906
 # @Author: Peter Ren
 # @Email: cnprogrammer@126.com
 # @Github: https://github.com/cnprogrammer2019/2019-nCoV
 # @Site: http://renpeter.com
-# @File : create_history_data_in_bar_chart.py
+# @File : show_china_history_data_in_bar_chart.py
 # @Software: PyCharm
 #
 """
@@ -21,11 +21,11 @@ import os
 import json
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib.widgets import Cursor
 import math
 import datetime
 
-import bar_chart_setting as setting
-import basic
+import setting
 
 
 def str_to_int(data_as_str, default_value=0):
@@ -55,7 +55,7 @@ def int_to_ceil(data, min_scale=0, max_scale=10, max_times=20):
         for times in range(1, max_times):
             scale = math.pow(10, times)
             tmp_result = data / scale
-            if min_scale <= tmp_result < max_scale:
+            if min_scale <= tmp_result <= max_scale:
                 result = math.ceil(tmp_result) * scale
                 break
     except:
@@ -63,7 +63,7 @@ def int_to_ceil(data, min_scale=0, max_scale=10, max_times=20):
     return result
 
 
-def create_history_line_chart():
+def show_line_chart():
     """
     进行折线图显示
     :return:
@@ -115,13 +115,12 @@ def create_history_line_chart():
         fig = plt.figure(figsize=setting.DEFAULT_CHART_IMAGE_SIZE)
         fig.canvas.set_window_title(setting.DEFAULT_CHART_WINDOW_TITLE)
         ax = fig.add_subplot(111, facecolor=setting.DEFAULT_CHART_FACECOLOR)
+        cursor = Cursor(ax, useblit=True, color='red', linewidth=1)
 
-        # draw plot
-        bar_width_val = setting.DEFAULT_CHART_BAR_WIDTH
+        bar_width_val = 0.5
 
         x_index_list = np.arange(len(history_date_list))
-        plt.bar(x_index_list, history_data_list['cn_conNum'], facecolor='blue', width=bar_width_val * 2,
-                tick_label=history_date_list,
+        plt.bar(x_index_list, history_data_list['cn_conNum'], facecolor='blue', width=bar_width_val * 2, tick_label=history_date_list,
                 label=history_data_name_list['cn_conNum'] + ' ( ' + str((history_data_list['cn_conNum'][-1])) + ' )')
         plt.bar(x_index_list, history_data_list['cn_susNum'], facecolor='lightblue', width=bar_width_val * 2,
                 bottom=history_data_list['cn_conNum'],
@@ -150,16 +149,11 @@ def create_history_line_chart():
                  fontsize=setting.DEFAULT_CHART_DESCRIPTION_FONT_SIZE,
                  bbox=setting.DEFAULT_CHART_DESCRIPTION_BBOX_PROPS)
 
-        # save chart
-        for file_path_ext in setting.DEFAULT_CHART_IMAGE_EXT:
-            chart_file_path = last_date + file_path_ext
-            absolute_chart_file_path = os.path.join(setting.DEFAULT_CHART_IMAGE_FOLDER_PATH, chart_file_path)
-            plt.savefig(absolute_chart_file_path)
-        return True, last_date, setting.DEFAULT_CHART_IMAGE_EXT
+        plt.show()
+        return True
 
-    return False, last_date, None
+    return False
 
 
 if __name__ == '__main__':
-    basic.check_path_exist_by(setting.DEFAULT_CHART_IMAGE_FOLDER_PATH)
-    print('create ', create_history_line_chart())
+    show_line_chart()

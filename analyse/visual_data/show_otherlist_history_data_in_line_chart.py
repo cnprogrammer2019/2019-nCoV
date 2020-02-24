@@ -8,7 +8,7 @@
 # @Email: cnprogrammer@126.com
 # @Github: https://github.com/cnprogrammer2019/2019-nCoV
 # @Site: http://renpeter.com
-# @File : show_history_data_in_line_chart_without_china.py
+# @File : show_otherlist_history_data_in_line_chart.py
 # @Software: PyCharm
 #
 
@@ -38,7 +38,7 @@ import setting
 fonts = fm.FontProperties(fname=os.path.join(os.path.expanduser('~'), 'data', 'cn_fonts', 'simsun.ttc'))  # 设置中文字体
 
 now = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-data_path = os.path.join('..', '..', 'cleandata', 'worldlist')
+data_path = os.path.join('..', '..', 'cleandata', 'otherlist')
 file_path_list = os.listdir(data_path)
 file_path_list.sort()
 except_area_list = ['中国']
@@ -58,8 +58,8 @@ for file_path in file_path_list:
     with open(json_file_path, 'r') as f:
         single_json_data = json.load(f)
         last_date = single_json_data['data']['cachetime']
-        index_list = [single_json_data['data']['cachetime'][5:10]] * len(single_json_data['data']['worldlist'])
-        df = pd.DataFrame(single_json_data['data']['worldlist'], index=index_list)
+        index_list = [single_json_data['data']['cachetime'][5:10]] * len(single_json_data['data']['otherlist'])
+        df = pd.DataFrame(single_json_data['data']['otherlist'], index=index_list)
         df_list.append(df)
 
 # 合并所有的数据

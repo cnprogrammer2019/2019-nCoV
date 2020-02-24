@@ -8,7 +8,7 @@
 # @Email: cnprogrammer@126.com
 # @Github: https://github.com/cnprogrammer2019/2019-nCoV
 # @Site: http://renpeter.com
-# @File : show_history_data_in_line_chart.py
+# @File : show_china_history_data_in_line_chart.py
 # @Software: PyCharm
 #
 """

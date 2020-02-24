@@ -15,7 +15,7 @@ import os
 
 # 建立图片的参数设置
 DEFAULT_DATA_FOLDER_PATH = os.path.join(os.getcwd(), '..', '..', 'cleandata', 'historylist')
-DEFAULT_CHART_IMAGE_FOLDER_PATH = os.path.join(os.getcwd(), '..', '..', 'chart', 'bar')
+DEFAULT_CHART_IMAGE_FOLDER_PATH = os.path.join(os.getcwd(), '..', '..', 'chart', 'historylist', 'china', 'bar')
 DEFAULT_MATPLOTLIB_XTICK_ROTATE_ANGLE = -90
 DEFAULT_CHART_BAR_WIDTH = 0.5
 
