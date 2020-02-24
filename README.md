@@ -45,8 +45,8 @@
 <b>制作图表：</b>
 <br>根据最新的数据显示每日更新，并且保存到目录文件中
 <br>数据源：cleandata/histroylist/最新的json数据文件
-<br>图表文件：chart/[line|bra]/数据文件中的最后日期
-<br>使用方法：analyse/terminal/create_history_data_in_[line|bar]_chart.py
+<br>图表文件：chart/[historlist|otherlist]/[[line|bra|]|[china|[bar|line]]]/数据文件中的最后日期
+<br>使用方法：analyse/terminal/create_**_[line|bar]_chart.py
 <br>图片格式：png, svg
 </p>
 
@@ -54,5 +54,5 @@
 <b>显示图表：</b>
 <br>根据最新的数据显示每日更新，只显示，不产生图片数据文件
 <br>数据源：cleandata/histroylist/最新的json数据文件
-<br>使用方法：analyse/visual_data/show_history_data_in_[line|bar]_chart.py
+<br>使用方法：analyse/visual_data/show_**_chart.py
 </p>
