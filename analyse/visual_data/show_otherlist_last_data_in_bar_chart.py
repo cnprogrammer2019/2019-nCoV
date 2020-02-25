@@ -90,7 +90,7 @@ max_ylim = 0
 with open(json_file_path, 'r') as f:
     single_json_data = json.load(f)
     last_date = single_json_data['data']['cachetime']
-    current_data_list = single_json_data['data']['otherlist']
+    current_data_list = sorted(single_json_data['data']['otherlist'], key=lambda x: int(x['value']))
     for current_data in current_data_list:
         infected_area_list.append(current_data['name'])
         for data_name in data_name_dict:
