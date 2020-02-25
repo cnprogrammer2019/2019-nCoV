@@ -115,7 +115,7 @@ for infected_area in infected_area_list:
                 infected_area_date_data_list.append(0)
     plt.plot(data_date_list, infected_area_date_data_list, label=infected_area)
 
-plt.title('中国以外其他地区新型冠状病毒肺炎（2019-nCoV）历史数据 - ' + data_cn_name,  fontproperties=fonts)
+plt.title('中国以外其他地区新型冠状病毒肺炎 COVID-19 (2019-nCoV) 历史数据 - ' + data_cn_name,  fontproperties=fonts)
 plt.xlabel('日期', fontproperties=fonts)
 plt.ylabel('人数', fontproperties=fonts)
 plt.grid(alpha=0.5)

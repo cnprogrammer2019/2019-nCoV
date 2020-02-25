@@ -130,7 +130,7 @@ plt.bar(x_index_list, data_dic[data_name],
         label=data_name_dict[data_name]['cn_name'], tick_label=infected_area_list)
 
 plt.ylim(0, int_to_ceil(max_ylim))
-plt.title('其他国家或地区新冠肺炎2019-nCoV当前数据', fontsize=setting.DEFAULT_CHART_CAPITAL_FONT_SIZE, fontproperties=cn_font)
+plt.title('其他国家或地区新冠肺炎 COVID-19 (2019-nCoV) 当前数据', fontsize=setting.DEFAULT_CHART_CAPITAL_FONT_SIZE, fontproperties=cn_font)
 plt.xlabel('其他国家或地区', fontproperties=cn_font)
 plt.ylabel('人数', fontproperties=cn_font)
 plt.grid(alpha=0.5)
