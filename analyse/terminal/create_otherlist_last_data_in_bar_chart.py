@@ -112,6 +112,10 @@ data_name = 'value'
 plt.bar(x_index_list, data_dic[data_name],
         color=data_name_dict[data_name]['color'],
         label=data_name_dict[data_name]['cn_name'], tick_label=infected_area_list)
+# 显示数字在柱头
+for x, y in zip(x_index_list, data_dic[data_name]):
+    plt.text(x, y, y, ha='center', va='bottom')
+
 data_name = 'susNum'
 plt.bar(x_index_list, data_dic[data_name],
         bottom=data_dic['value'],
