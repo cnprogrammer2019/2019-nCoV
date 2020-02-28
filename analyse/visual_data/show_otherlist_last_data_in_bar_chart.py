@@ -74,10 +74,10 @@ except_area_list = ['中国']
 file_path = file_path_list[-1]
 json_file_path = os.path.join(data_path, file_path)
 data_name_dict = {
-    'value': {'legend_name': '确诊 (Confirmed)', 'color': 'blue'},
-    'susNum': {'legend_name': '疑似 (Suspected)', 'color': 'orange'},
-    'deathNum': {'legend_name': '死亡 (Died)', 'color': 'red'},
-    'cureNum': {'legend_name': '治愈 (Cured)', 'color': 'green'},
+    'value': {'legend_name': '确诊 (Confirmed)', 'color': 'blue', 'prefix': ''},
+    # 'susNum': {'legend_name': '疑似 (Suspected)', 'color': 'orange', 'prefix': ''},
+    'deathNum': {'legend_name': '死亡 (Died)', 'color': 'red', 'prefix': '- '},
+    'cureNum': {'legend_name': '治愈 (Cured)', 'color': 'green', 'prefix': '- '},
 }
 
 infected_area_list = []
@@ -113,15 +113,12 @@ data_name = 'value'
 plt.bar(x_index_list, data_dic[data_name],
         color=data_name_dict[data_name]['color'],
         label=data_name_dict[data_name]['legend_name'], tick_label=infected_area_list)
-# 显示数字在柱头
-for x, y in zip(x_index_list, data_dic[data_name]):
-    plt.text(x, y, y, ha='center', va='bottom')
 
-data_name = 'susNum'
-plt.bar(x_index_list, data_dic[data_name],
-        bottom=data_dic['value'],
-        color=data_name_dict[data_name]['color'],
-        label=data_name_dict[data_name]['legend_name'], tick_label=infected_area_list)
+# data_name = 'susNum'
+# plt.bar(x_index_list, data_dic[data_name],
+#         bottom=data_dic['value'],
+#         color=data_name_dict[data_name]['color'],
+#         label=data_name_dict[data_name]['legend_name'], tick_label=infected_area_list)
 
 data_name = 'deathNum'
 plt.bar(x_index_list, data_dic[data_name],
@@ -132,6 +129,18 @@ plt.bar(x_index_list, data_dic[data_name],
         bottom=data_dic['deathNum'],
         color=data_name_dict[data_name]['color'],
         label=data_name_dict[data_name]['legend_name'], tick_label=infected_area_list)
+
+# 显示数字在柱头
+bar_top_y_list = [0] * len(infected_area_list)
+bar_top_y_text_list = [''] * len(infected_area_list)
+for data_name in data_name_dict:
+    for index_of_area, data in enumerate(data_dic[data_name]):
+        bar_top_y_text_list[index_of_area] += data_name_dict[data_name]['prefix'] + str(data) + '\n'
+        bar_top_y_list[index_of_area] = data if data > bar_top_y_list[index_of_area] else bar_top_y_list[index_of_area]
+
+for x, y, text in zip(x_index_list, bar_top_y_list, bar_top_y_text_list):
+    for show_index, data_name in enumerate(data_name_dict):
+        plt.text(x, y, text, ha='center', va='bottom', color='darkblue')
 
 plt.ylim(0, int_to_ceil(max_ylim))
 plt.title('其他国家或地区新冠肺炎 COVID-19 (2019-nCoV) 当前数据', fontsize=setting.DEFAULT_CHART_CAPITAL_FONT_SIZE, fontproperties=cn_font)
