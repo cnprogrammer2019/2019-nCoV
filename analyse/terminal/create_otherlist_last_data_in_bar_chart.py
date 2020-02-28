@@ -74,10 +74,10 @@ basic.check_path_exist_by(chart_folder_path)
 file_path = file_path_list[-1]
 json_file_path = os.path.join(data_path, file_path)
 data_name_dict = {
-    'value': {'cn_name': '确诊', 'color': 'blue'},
-    'susNum': {'cn_name': '疑似', 'color': 'orange'},
-    'deathNum': {'cn_name': '死亡', 'color': 'red'},
-    'cureNum': {'cn_name': '治愈', 'color': 'green'},
+    'value': {'legend_name': '确诊 (Confirmed)', 'color': 'blue'},
+    'susNum': {'legend_name': '疑似 (Suspected)', 'color': 'orange'},
+    'deathNum': {'legend_name': '死亡 (Died)', 'color': 'red'},
+    'cureNum': {'legend_name': '治愈 (Cured)', 'color': 'green'},
 }
 
 infected_area_list = []
@@ -111,7 +111,7 @@ x_index_list = np.arange(len(infected_area_list))
 data_name = 'value'
 plt.bar(x_index_list, data_dic[data_name],
         color=data_name_dict[data_name]['color'],
-        label=data_name_dict[data_name]['cn_name'], tick_label=infected_area_list)
+        label=data_name_dict[data_name]['legend_name'], tick_label=infected_area_list)
 # 显示数字在柱头
 for x, y in zip(x_index_list, data_dic[data_name]):
     plt.text(x, y, y, ha='center', va='bottom')
@@ -120,17 +120,17 @@ data_name = 'susNum'
 plt.bar(x_index_list, data_dic[data_name],
         bottom=data_dic['value'],
         color=data_name_dict[data_name]['color'],
-        label=data_name_dict[data_name]['cn_name'], tick_label=infected_area_list)
+        label=data_name_dict[data_name]['legend_name'], tick_label=infected_area_list)
 
 data_name = 'deathNum'
 plt.bar(x_index_list, data_dic[data_name],
         color=data_name_dict[data_name]['color'],
-        label=data_name_dict[data_name]['cn_name'], tick_label=infected_area_list)
+        label=data_name_dict[data_name]['legend_name'], tick_label=infected_area_list)
 data_name = 'cureNum'
 plt.bar(x_index_list, data_dic[data_name],
         bottom=data_dic['deathNum'],
         color=data_name_dict[data_name]['color'],
-        label=data_name_dict[data_name]['cn_name'], tick_label=infected_area_list)
+        label=data_name_dict[data_name]['legend_name'], tick_label=infected_area_list)
 
 
 plt.ylim(0, int_to_ceil(max_ylim))
