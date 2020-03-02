@@ -106,12 +106,13 @@ fig.canvas.set_window_title(setting.DEFAULT_CHART_WINDOW_TITLE)
 ax = fig.add_subplot(111, facecolor=setting.DEFAULT_CHART_FACECOLOR)
 cursor = Cursor(ax, useblit=True, color='red', linewidth=1)
 
-x_index_list = np.arange(len(infected_area_list))
+x_index_list = np.arange(len(infected_area_list[-setting.DEFAULT_CHART_SHOW_BAR_TOP_LIMIT:]))
 
 data_name = 'value'
-plt.bar(x_index_list, data_dic[data_name],
+plt.bar(x_index_list, data_dic[data_name][-setting.DEFAULT_CHART_SHOW_BAR_TOP_LIMIT:],
         color=data_name_dict[data_name]['color'],
-        label=data_name_dict[data_name]['legend_name'], tick_label=infected_area_list)
+        label=data_name_dict[data_name]['legend_name'],
+        tick_label=infected_area_list[-setting.DEFAULT_CHART_SHOW_BAR_TOP_LIMIT:])
 
 # data_name = 'susNum'
 # plt.bar(x_index_list, data_dic[data_name],
@@ -120,14 +121,16 @@ plt.bar(x_index_list, data_dic[data_name],
 #         label=data_name_dict[data_name]['legend_name'], tick_label=infected_area_list)
 
 data_name = 'deathNum'
-plt.bar(x_index_list, data_dic[data_name],
+plt.bar(x_index_list, data_dic[data_name][-setting.DEFAULT_CHART_SHOW_BAR_TOP_LIMIT:],
         color=data_name_dict[data_name]['color'],
-        label=data_name_dict[data_name]['legend_name'], tick_label=infected_area_list)
+        label=data_name_dict[data_name]['legend_name'],
+        tick_label=infected_area_list[-setting.DEFAULT_CHART_SHOW_BAR_TOP_LIMIT:])
 data_name = 'cureNum'
-plt.bar(x_index_list, data_dic[data_name],
-        bottom=data_dic['deathNum'],
+plt.bar(x_index_list, data_dic[data_name][-setting.DEFAULT_CHART_SHOW_BAR_TOP_LIMIT:],
+        bottom=data_dic['deathNum'][-setting.DEFAULT_CHART_SHOW_BAR_TOP_LIMIT:],
         color=data_name_dict[data_name]['color'],
-        label=data_name_dict[data_name]['legend_name'], tick_label=infected_area_list)
+        label=data_name_dict[data_name]['legend_name'],
+        tick_label=infected_area_list[-setting.DEFAULT_CHART_SHOW_BAR_TOP_LIMIT:])
 
 # 显示数字在柱头
 bar_top_y_list = [0] * len(infected_area_list)
@@ -137,12 +140,15 @@ for data_name in data_name_dict:
         bar_top_y_text_list[index_of_area] += data_name_dict[data_name]['prefix'] + str(data) + '\n'
         bar_top_y_list[index_of_area] = data if data > bar_top_y_list[index_of_area] else bar_top_y_list[index_of_area]
 
-for x, y, text in zip(x_index_list, bar_top_y_list, bar_top_y_text_list):
-    for show_index, data_name in enumerate(data_name_dict):
-        plt.text(x, y, text, ha='center', va='bottom', color='darkblue')
+for x, y, text in zip(x_index_list,
+                      bar_top_y_list[-setting.DEFAULT_CHART_SHOW_BAR_TOP_LIMIT:],
+                      bar_top_y_text_list[-setting.DEFAULT_CHART_SHOW_BAR_TOP_LIMIT:]):
+    plt.text(x, y, text, ha='center', va='bottom', color='darkblue')
 
 plt.ylim(0, int_to_ceil(max_ylim))
-plt.title('其他国家或地区新冠肺炎 COVID-19 (2019-nCoV) 当前数据', fontsize=setting.DEFAULT_CHART_CAPITAL_FONT_SIZE, fontproperties=cn_font)
+plt.title('其他国家或地区新冠肺炎 COVID-19 (2019-nCoV) 当前数据 TOP: {} in {}'.format(
+    setting.DEFAULT_CHART_SHOW_BAR_TOP_LIMIT, len(infected_area_list)),
+    fontsize=setting.DEFAULT_CHART_CAPITAL_FONT_SIZE, fontproperties=cn_font)
 plt.xlabel('其他国家或地区', fontproperties=cn_font)
 plt.ylabel('人数', fontproperties=cn_font)
 plt.grid(alpha=0.5)
