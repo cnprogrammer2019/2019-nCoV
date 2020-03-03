@@ -8,7 +8,7 @@
 # @Email: cnprogrammer@126.com
 # @Github: https://github.com/cnprogrammer2019/2019-nCoV
 # @Site: http://renpeter.com
-# @File : create_otherlist_last_data_in_bar_chart.py
+# @File : create_worldlist_last_data_in_bar_chart.py
 # @Software: PyCharm
 #
 
@@ -62,14 +62,13 @@ def int_to_ceil(data, min_scale=0, max_scale=10, max_times=20):
 cn_font_path = os.path.join(os.path.expanduser('~'), 'data', 'cn_fonts', 'simsun.ttc')
 cn_font = matplotlib.font_manager.FontProperties(fname=cn_font_path)
 
-DATA_LIST_NAME = 'otherlist'
+DATA_LIST_NAME = 'worldlist'
 
 chart_folder_path = os.path.join('..', '..', 'chart', DATA_LIST_NAME, 'bar')  # 图表目录
 now = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')         # 当前制图时间
 data_path = os.path.join('..', '..', 'cleandata', DATA_LIST_NAME)
 file_path_list = os.listdir(data_path)
 file_path_list.sort()
-except_area_list = ['中国']
 
 basic.check_path_exist_by(chart_folder_path)
 
@@ -149,7 +148,7 @@ for x, y, text in zip(x_index_list,
     plt.text(x, y, text, ha='center', va='bottom', color='darkblue')
 
 plt.ylim(0, int_to_ceil(max_ylim))
-plt.title('其他国家或地区新冠肺炎 COVID-19 (2019-nCoV) 当前数据 TOP: {} in {}'.format(
+plt.title('全球新冠肺炎 COVID-19 (2019-nCoV) 当前数据 TOP: {} in {}'.format(
     setting.DEFAULT_CHART_SHOW_BAR_TOP_LIMIT, len(infected_area_list)),
     fontsize=setting.DEFAULT_CHART_CAPITAL_FONT_SIZE, fontproperties=cn_font)
 plt.xlabel('其他国家或地区', fontproperties=cn_font)

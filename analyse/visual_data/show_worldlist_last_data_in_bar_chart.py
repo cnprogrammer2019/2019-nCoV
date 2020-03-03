@@ -8,7 +8,7 @@
 # @Email: cnprogrammer@126.com
 # @Github: https://github.com/cnprogrammer2019/2019-nCoV
 # @Site: http://renpeter.com
-# @File : create_otherlist_last_data_in_bar_chart.py
+# @File : show_worldlist_last_data_in_bar_chart.py
 # @Software: PyCharm
 #
 
@@ -27,14 +27,13 @@ import os
 import numpy as np
 import datetime
 import json
-import math
 import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 from matplotlib.widgets import Cursor
+import math
 
-import bar_chart_setting as setting
-import basic
+import setting
 
 
 def int_to_ceil(data, min_scale=0, max_scale=10, max_times=20):
@@ -62,16 +61,15 @@ def int_to_ceil(data, min_scale=0, max_scale=10, max_times=20):
 cn_font_path = os.path.join(os.path.expanduser('~'), 'data', 'cn_fonts', 'simsun.ttc')
 cn_font = matplotlib.font_manager.FontProperties(fname=cn_font_path)
 
-DATA_LIST_NAME = 'otherlist'
+DATA_LIST_NAME = 'worldlist'
 
-chart_folder_path = os.path.join('..', '..', 'chart', DATA_LIST_NAME, 'bar')  # 图表目录
-now = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')         # 当前制图时间
+now = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 data_path = os.path.join('..', '..', 'cleandata', DATA_LIST_NAME)
 file_path_list = os.listdir(data_path)
 file_path_list.sort()
-except_area_list = ['中国']
 
-basic.check_path_exist_by(chart_folder_path)
+# print('所有的文件列表，根据日期时间排序了')
+# print(file_path_list)
 
 # 读取最后一个文件
 file_path = file_path_list[-1]
@@ -109,10 +107,11 @@ fig.canvas.set_window_title(setting.DEFAULT_CHART_WINDOW_TITLE)
 ax = fig.add_subplot(111, facecolor=setting.DEFAULT_CHART_FACECOLOR)
 cursor = Cursor(ax, useblit=True, color='red', linewidth=1)
 
+bar_width = 0
 x_index_list = np.arange(len(infected_area_list[-setting.DEFAULT_CHART_SHOW_BAR_TOP_LIMIT:]))
 
 data_name = 'value'
-plt.bar(x_index_list, data_dic[data_name][-setting.DEFAULT_CHART_SHOW_BAR_TOP_LIMIT:],
+plt.bar(x_index_list, data_dic[data_name][-setting.DEFAULT_CHART_BAR_MAX_LIMIT:],
         color=data_name_dict[data_name]['color'],
         label=data_name_dict[data_name]['legend_name'],
         tick_label=infected_area_list[-setting.DEFAULT_CHART_SHOW_BAR_TOP_LIMIT:])
@@ -129,8 +128,8 @@ plt.bar(x_index_list, data_dic[data_name][-setting.DEFAULT_CHART_SHOW_BAR_TOP_LI
         label=data_name_dict[data_name]['legend_name'],
         tick_label=infected_area_list[-setting.DEFAULT_CHART_SHOW_BAR_TOP_LIMIT:])
 data_name = 'cureNum'
-plt.bar(x_index_list, data_dic[data_name][-setting.DEFAULT_CHART_SHOW_BAR_TOP_LIMIT:],
-        bottom=data_dic['deathNum'][-setting.DEFAULT_CHART_SHOW_BAR_TOP_LIMIT:],
+plt.bar(x_index_list, data_dic[data_name][-setting.DEFAULT_CHART_BAR_MAX_LIMIT:],
+        bottom=data_dic['deathNum'][-setting.DEFAULT_CHART_BAR_MAX_LIMIT:],
         color=data_name_dict[data_name]['color'],
         label=data_name_dict[data_name]['legend_name'],
         tick_label=infected_area_list[-setting.DEFAULT_CHART_SHOW_BAR_TOP_LIMIT:])
@@ -146,10 +145,11 @@ for data_name in data_name_dict:
 for x, y, text in zip(x_index_list,
                       bar_top_y_list[-setting.DEFAULT_CHART_SHOW_BAR_TOP_LIMIT:],
                       bar_top_y_text_list[-setting.DEFAULT_CHART_SHOW_BAR_TOP_LIMIT:]):
+    # for show_index, data_name in enumerate(data_name_dict):
     plt.text(x, y, text, ha='center', va='bottom', color='darkblue')
 
 plt.ylim(0, int_to_ceil(max_ylim))
-plt.title('其他国家或地区新冠肺炎 COVID-19 (2019-nCoV) 当前数据 TOP: {} in {}'.format(
+plt.title('全球新冠肺炎 COVID-19 (2019-nCoV) 当前数据 TOP: {} in {}'.format(
     setting.DEFAULT_CHART_SHOW_BAR_TOP_LIMIT, len(infected_area_list)),
     fontsize=setting.DEFAULT_CHART_CAPITAL_FONT_SIZE, fontproperties=cn_font)
 plt.xlabel('其他国家或地区', fontproperties=cn_font)
@@ -162,10 +162,6 @@ plt.text(0, max_ylim / 2, setting.DEFAULT_CHART_DESCRIPTION_FORMAT.format(last_d
          fontsize=setting.DEFAULT_CHART_DESCRIPTION_FONT_SIZE,
          bbox=setting.DEFAULT_CHART_DESCRIPTION_BBOX_PROPS)
 
-# save chart
-for file_path_ext in setting.DEFAULT_CHART_IMAGE_EXT:
-    chart_file_path = last_date + file_path_ext
-    absolute_chart_file_path = os.path.join(chart_folder_path, chart_file_path)
-    plt.savefig(absolute_chart_file_path)
+plt.show()
 
-print('create chart for otherlist last data {} {} is {}'.format(last_date, setting.DEFAULT_CHART_IMAGE_EXT, 'ok'))
+#

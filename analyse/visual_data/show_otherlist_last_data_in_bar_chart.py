@@ -61,8 +61,10 @@ def int_to_ceil(data, min_scale=0, max_scale=10, max_times=20):
 cn_font_path = os.path.join(os.path.expanduser('~'), 'data', 'cn_fonts', 'simsun.ttc')
 cn_font = matplotlib.font_manager.FontProperties(fname=cn_font_path)
 
+DATA_LIST_NAME = 'otherlist'
+
 now = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-data_path = os.path.join('..', '..', 'cleandata', 'otherlist')
+data_path = os.path.join('..', '..', 'cleandata', DATA_LIST_NAME)
 file_path_list = os.listdir(data_path)
 file_path_list.sort()
 except_area_list = ['中国']
@@ -90,7 +92,7 @@ max_ylim = 0
 with open(json_file_path, 'r') as f:
     single_json_data = json.load(f)
     last_date = single_json_data['data']['cachetime']
-    current_data_list = sorted(single_json_data['data']['otherlist'], key=lambda x: int(x['value']))
+    current_data_list = sorted(single_json_data['data'][DATA_LIST_NAME], key=lambda x: int(x['value']))
     for current_data in current_data_list:
         infected_area_list.append(current_data['name'])
         for data_name in data_name_dict:

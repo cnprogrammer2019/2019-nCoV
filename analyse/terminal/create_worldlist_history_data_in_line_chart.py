@@ -8,7 +8,7 @@
 # @Email: cnprogrammer@126.com
 # @Github: https://github.com/cnprogrammer2019/2019-nCoV
 # @Site: http://renpeter.com
-# @File : create_otherlist_history_data_in_line_chart.py
+# @File : create_worldlist_history_data_in_line_chart.py
 # @Software: PyCharm
 #
 
@@ -39,14 +39,13 @@ import line_chart_setting as setting
 
 fonts = fm.FontProperties(fname=os.path.join(os.path.expanduser('~'), 'data', 'cn_fonts', 'simsun.ttc'))  # 设置中文字体
 
-DATA_LIST_NAME = 'otherlist'
+DATA_LIST_NAME = 'worldlist'
 
 chart_folder_path = os.path.join('..', '..', 'chart', DATA_LIST_NAME, 'line')  # 图表目录
 now = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')         # 当前制图时间
 data_path = os.path.join('..', '..', 'cleandata', DATA_LIST_NAME)      # 数据目录
 file_path_list = os.listdir(data_path)                              # 所有数据文件
 file_path_list.sort()
-except_area_list = ['中国']
 
 data_name = sys.argv[1]
 data_cn_name = sys.argv[2]
@@ -102,8 +101,6 @@ ax = fig.add_subplot(111, facecolor=setting.DEFAULT_CHART_FACECOLOR)
 cursor = Cursor(ax, useblit=True, color='red', linewidth=1)
 
 for infected_area in infected_area_list:
-    if infected_area in except_area_list:
-        continue
     infected_area_df = df_all[df_all['name'] == infected_area].drop_duplicates(keep='last').groupby(level=0).last()
     infected_area_date_data_list = []
     for data_date in data_date_list:
@@ -117,7 +114,7 @@ for infected_area in infected_area_list:
                 infected_area_date_data_list.append(0)
     plt.plot(data_date_list, infected_area_date_data_list, label=infected_area)
 
-plt.title('中国以外其他地区新型冠状病毒肺炎 COVID-19 (2019-nCoV) 历史数据 - ' + data_cn_name,  fontproperties=fonts)
+plt.title('全球新型冠状病毒肺炎 COVID-19 (2019-nCoV) 历史数据 - ' + data_cn_name,  fontproperties=fonts)
 plt.xlabel('日期', fontproperties=fonts)
 plt.ylabel('人数', fontproperties=fonts)
 plt.grid(alpha=0.5)

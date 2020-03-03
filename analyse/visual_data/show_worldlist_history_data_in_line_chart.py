@@ -8,7 +8,7 @@
 # @Email: cnprogrammer@126.com
 # @Github: https://github.com/cnprogrammer2019/2019-nCoV
 # @Site: http://renpeter.com
-# @File : create_otherlist_history_data_in_line_chart.py
+# @File : show_worldlist_history_data_in_line_chart.py
 # @Software: PyCharm
 #
 
@@ -17,7 +17,6 @@
 将一组数据文件中的数据进行合并
 每天中不定期的更新个别数据，所以有些数据是重复的，冗余的，
 测试中将所有的数据文件内容进行合并，然后只需要获取每天最后的数据作为时间序列就可以了
-使用时，参数为 [value|susNum|deathNum|cureNum] 随意对照的名字
 value: 确诊
 susNum: 疑似
 deathNum： 死亡
@@ -33,26 +32,21 @@ import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 from matplotlib.widgets import Cursor
 
-import basic
-import line_chart_setting as setting
+import setting
 
 
 fonts = fm.FontProperties(fname=os.path.join(os.path.expanduser('~'), 'data', 'cn_fonts', 'simsun.ttc'))  # 设置中文字体
 
-DATA_LIST_NAME = 'otherlist'
+DATA_LIST_NAME = 'worldlist'
 
-chart_folder_path = os.path.join('..', '..', 'chart', DATA_LIST_NAME, 'line')  # 图表目录
-now = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')         # 当前制图时间
-data_path = os.path.join('..', '..', 'cleandata', DATA_LIST_NAME)      # 数据目录
-file_path_list = os.listdir(data_path)                              # 所有数据文件
+now = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+data_path = os.path.join('..', '..', 'cleandata', DATA_LIST_NAME)
+file_path_list = os.listdir(data_path)
 file_path_list.sort()
-except_area_list = ['中国']
 
 data_name = sys.argv[1]
 data_cn_name = sys.argv[2]
 
-chart_folder_path = os.path.join(chart_folder_path, data_name + '-' + data_cn_name)
-basic.check_path_exist_by(chart_folder_path)
 
 # print('所有的文件列表，根据日期时间排序了')
 # print(file_path_list)
@@ -102,8 +96,6 @@ ax = fig.add_subplot(111, facecolor=setting.DEFAULT_CHART_FACECOLOR)
 cursor = Cursor(ax, useblit=True, color='red', linewidth=1)
 
 for infected_area in infected_area_list:
-    if infected_area in except_area_list:
-        continue
     infected_area_df = df_all[df_all['name'] == infected_area].drop_duplicates(keep='last').groupby(level=0).last()
     infected_area_date_data_list = []
     for data_date in data_date_list:
@@ -117,7 +109,7 @@ for infected_area in infected_area_list:
                 infected_area_date_data_list.append(0)
     plt.plot(data_date_list, infected_area_date_data_list, label=infected_area)
 
-plt.title('中国以外其他地区新型冠状病毒肺炎 COVID-19 (2019-nCoV) 历史数据 - ' + data_cn_name,  fontproperties=fonts)
+plt.title('全球新型冠状病毒肺炎 COVID-19 (2019-nCoV) 历史数据 - ' + data_cn_name,  fontproperties=fonts)
 plt.xlabel('日期', fontproperties=fonts)
 plt.ylabel('人数', fontproperties=fonts)
 plt.grid(alpha=0.5)
@@ -129,11 +121,6 @@ plt.text(axes.get_xlim()[1]/10, axes.get_ylim()[1] * 2/3, setting.DEFAULT_CHART_
          fontsize=setting.DEFAULT_CHART_DESCRIPTION_FONT_SIZE,
          bbox=setting.DEFAULT_CHART_DESCRIPTION_BBOX_PROPS)
 
-# save chart
-for file_path_ext in setting.DEFAULT_CHART_IMAGE_EXT:
-    chart_file_path = last_date + file_path_ext
-    absolute_chart_file_path = os.path.join(chart_folder_path, chart_file_path)
-    plt.savefig(absolute_chart_file_path)
+plt.show()
 
-print('create chart for otherlist {}-{}/({} {}) is {}'.format(data_name, data_cn_name, last_date, setting.DEFAULT_CHART_IMAGE_EXT, 'ok'))
 
