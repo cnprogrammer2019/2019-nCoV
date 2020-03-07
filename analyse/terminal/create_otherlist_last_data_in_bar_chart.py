@@ -168,4 +168,5 @@ for file_path_ext in setting.DEFAULT_CHART_IMAGE_EXT:
     absolute_chart_file_path = os.path.join(chart_folder_path, chart_file_path)
     plt.savefig(absolute_chart_file_path)
 
-print('create chart for otherlist last data {} {} is {}'.format(last_date, setting.DEFAULT_CHART_IMAGE_EXT, 'ok'))
+print('create chart for {} last data {} {} is {}'.format(
+    DATA_LIST_NAME, last_date, setting.DEFAULT_CHART_IMAGE_EXT, 'done'))

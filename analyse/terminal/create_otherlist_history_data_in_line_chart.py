@@ -135,5 +135,6 @@ for file_path_ext in setting.DEFAULT_CHART_IMAGE_EXT:
     absolute_chart_file_path = os.path.join(chart_folder_path, chart_file_path)
     plt.savefig(absolute_chart_file_path)
 
-print('create chart for otherlist {}-{}/({} {}) is {}'.format(data_name, data_cn_name, last_date, setting.DEFAULT_CHART_IMAGE_EXT, 'ok'))
+print('create chart for {} {}-{}/({} {}) is {}'.format(
+    DATA_LIST_NAME, data_name, data_cn_name, last_date, setting.DEFAULT_CHART_IMAGE_EXT, 'done'))
 
